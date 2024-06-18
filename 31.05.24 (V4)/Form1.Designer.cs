@@ -38,11 +38,12 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { ".png", ".jpg", ".jpeg", ".cs", ".cpp" });
             comboBox1.Location = new Point(3, 3);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(127, 23);
             comboBox1.TabIndex = 0;
-            comboBox1.SelectedIndexChanged += imbo;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // tableLayoutPanel1
             // 
@@ -84,7 +85,7 @@
             button1.TabIndex = 2;
             button1.Text = "Button";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += imbo;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
