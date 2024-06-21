@@ -1,4 +1,4 @@
-﻿namespace _2._06._2024
+﻿namespace _2._06._24
 {
     partial class Form1
     {

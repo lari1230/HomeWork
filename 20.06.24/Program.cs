@@ -1,4 +1,4 @@
-namespace _2._06._24
+namespace _20._06._24
 {
     internal static class Program
     {

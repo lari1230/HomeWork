@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
-namespace _2._06._2024
+namespace _2._06._24
 {
     public partial class Form1 : Form
     {
